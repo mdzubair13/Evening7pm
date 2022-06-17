@@ -61,6 +61,11 @@ driver.findElement(By.xpath("(//input[@type='text'])[2]")).sendKeys("sfdsffg");
 @Then("Click new create  account  button")
 public void clickNewCreateAccountButton() {
 	driver.findElement(By.xpath("(//button[@type='submit'])[]")).click();
+	
+	
+	
+	driver.findElement(By.id("23"));
+	
 	}
 
 
