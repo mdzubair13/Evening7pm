@@ -63,6 +63,10 @@ public void clickNewCreateAccountButton() {
 	driver.findElement(By.xpath("(//button[@type='submit'])[]")).click();
 	
 	driver.quit();
+	
+	
+	
+	driver.get("");
 	}
 
 
