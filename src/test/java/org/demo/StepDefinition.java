@@ -35,9 +35,6 @@ public class StepDefinition extends HelperClass {
 		String pass = alldata.get(0).get("username");
 
 		LoginPojo l = new LoginPojo();
-
-		fillText(l.getUserloginName(), user);
-		fillText(l.getUserPassword(), pass);
 	}
 
 	@Given("open facebook url")
@@ -61,6 +58,8 @@ public class StepDefinition extends HelperClass {
 		driver.quit();
 
 		driver.findElement(By.id("23"));
+	
+		driver.get("");
 
 	}
 
